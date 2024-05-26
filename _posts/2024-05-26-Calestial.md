@@ -1,12 +1,12 @@
 ---
-title: L3AK CTF Forensics
+title: L3AK CTF Hardware
 layout: post
 categories: [CTF, Writeup]
 tags: [ctf,Hardware,Radio]     # TAG names should always be lowercase
 ---
-Challenge :  **`Celestial`**
+<span style="color:red">Challenge : </span>  **`Celestial`**
 
-Categorie : **`Hardware/Radio`**
+<span style="color:red">Categorie : </span>  **`Hardware/Radio`**
 
 ![Celestial.JPG](/images/Celestial.JPG)
 
@@ -18,4 +18,4 @@ and get the flag.
 
 I think the output could be improved but the Flag was clear anyway.
 
-Flag: `L3AK{SsTV_k1nd4_c00L!}`
+<span style="color:red">Flag : </span>  **`L3AK{SsTV_k1nd4_c00L!}`**
