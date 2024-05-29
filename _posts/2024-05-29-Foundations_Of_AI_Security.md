@@ -7,7 +7,7 @@ tags: [ai,security]     # TAG names should always be lowercase
   These are some notes from the `Foundations Of AI Security` course provided by [AttackIQ](https://www.attackiq.com).
   They might be modified/imporoved to make a better AI security resource.
   
-*<h1><span style="color:Green"> Types Of AI </span></h1>*
+<h1><span style="color:Green"> Types Of AI </span></h1>
 
 **There are three kinds of artificial intelligence based on capabilities :**
 
