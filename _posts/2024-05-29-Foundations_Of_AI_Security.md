@@ -7,7 +7,7 @@ tags: [ai,security]     # TAG names should always be lowercase
   These are some notes from the `Foundations Of AI Security` course provided by [AttackIQ](https://www.attackiq.com).
   They might be modified/imporoved to make a better AI security resource.
   
-<span style="color:Green"> # ***Types Of AI*** </span>
+*<h1><span style="color:Green"> Types Of AI </span></h1>*
 
 **There are three kinds of artificial intelligence based on capabilities :**
 
@@ -19,7 +19,7 @@ narrow task that it does well, but cannot work outside of.
 <span style="color:red">2) **General AI :**</span>
 This is a theoretical concept that allows existing knowledge and skills to accomplish tasks in different contexts. Training of the underlying models by humans would not be required. General AI represents a leap from AI capable of performing specific tasks (ANI) to systems that can understand, learn, and apply knowledge in different contexts, much like a human.
 
-<span style="color:red">**3) Super AI :**</span
+<span style="color:red">**3) Super AI :**</span>
 This is also a theoretical concept that if ever created would think, reason, learn make judgments, and possess the cognitive abilities of human beings.
 
 **There are four types of artificial intelligence based on functionalities:**
@@ -38,7 +38,7 @@ This falls under General AI and therefore is only theoretical. If this functiona
 **4) Self-Aware AI :** 
 This falls under Super AI and is also only theoretical. If the functionality were to be realized it would have the ability to understand its own internal conditions and traits along with human emotions and thoughts
 
-<span style="color:red"> # ***AI Lifecycle*** </span>
+*<h1><span style="color:Green">AI Lifecycle</span></h1>*
 
 1) **Plan and Design**
 
@@ -58,7 +58,7 @@ This falls under Super AI and is also only theoretical. If the functionality wer
 - The AI RMF by NIST addresses these unique challenges by providing a structured approach to managing risks associated with the development, deployment, and operation of AI systems, emphasizing the importance of transparency, accountability, and ethical considerations in AI applications.
 - AI system impact assessment approaches can help AI actors understand potential impacts or harms within specific contexts. An AI Impact Assessment (AIIA) is a systematic process designed to evaluate the potential effects and risks associated with the deployment of artificial intelligence systems within specific contexts. This assessment is crucial for understanding the broader implications of AI technologies, including ethical, social, legal, and economic impacts. The goal of an AIIA is to identify potential negative outcomes before they occur, enabling organizations to implement mitigation strategies proactively.
 
-# **Risk at Different Stages of the AI Lifecycle**
+*<h1><span style="color:Green">Risk at Different Stages of the AI Lifecycle</span></h1>*
 
 - Plan and Design: During this initial phase, the focus is on identifying potential design flaws or biases in the data that could lead to unfair outcomes or inaccuracies
 - Verify and Validate Stage: At this point, the emphasis shifts to assessing the AI system's performance under various conditions to ensure its reliability and safety. Testing might reveal that the system performs well under controlled conditions but fails to generalize to real-world scenarios, posing a risk of unreliable outputs when deployed
@@ -155,25 +155,25 @@ Trustworthiness in artificial intelligence (AI) is a multifaceted concept that r
 
 **Fairness** ensures that AI systems do not perpetuate or amplify biases and that their decision making processes are equitable. An AI hiring tool designed to mitigate bias and ensure fairness is crucial in preventing discrimination against any demographic group.
 
-># **AI RMF Core**
+>*<h1><span style="color:Green">AI RMF Core</span></h1>*
 
 The Core framework consists of four main functions: govern, map, measure, and manage. These functions are further divided into categories and sub-categories, which detail specific actions and outcomes to be achieved.
 
-<span style="color:red"># **Govern**</span>
+<h3><span style="color:red"> Govern</span></h3>
 
 The "Govern" function plays a crucial role in fostering a culture of risk management within organizations that are involved in any stage of AI systems' lifecycle, including design, development, deployment, evaluation, or acquisition. It sets the foundation by establishing detailed processes, documentation, and organizational structures aimed at proactively anticipating, identifying, and managing potential risks that AI systems might pose, not just to users but also to wider society.
 
 This includes setting up clear procedures to achieve desired outcomes, assessing potential impacts, and ensuring that AI risk management efforts are in harmony with the organization's core principles, policies, and strategic objectives.
 
-<span style="color:red">#** Map**</span>
+<h3><span style="color:red">Map</span></h3>
 
 The Map function plays a crucial role in establishing the context for framing risks associated with AI systems. It acknowledges the complex interdependencies among various activities and relevant AI actors, which often complicates the ability to accurately predict the impacts of AI systems. By executing the Map function, organizations gather vital information that not only aids in preventing negative risks but also guides critical decisions related to model management and evaluates the suitability or necessity of an AI solution.
 
-<span style="color:red">**# Measure**</span>
+<h3><span style="color:red">Measure</span></h3>
 
 The Measure function utilizes a variety of tools and methods, both quantitative and qualitative, to thoroughly analyze, evaluate, benchmark, and keep track of the risks associated with AI systems and their broader impacts. It's crucial for AI systems to undergo rigorous testing not only before they are deployed but also consistently during their operation. This process involves monitoring metrics that reflect the trustworthiness of the AI, its social impact, and how humans interact with the AI system
 
-<span style="color:red">**# Manage**</span>
+<h3><span style="color:red">Manage</span></h3>
 
 The Manage function is about consistently directing resources towards managing the risks that have been pinpointed and evaluated, in line with the rules laid out by the Govern function. It leverages expert advice and input from key AI participants, identified during the Govern phase and further explored in the MAP phase, aiming to reduce system failures and negative outcomes. Starting from the Govern phase and carried through Map and Measure, meticulous documentation practices play a key role in improving risk management by making processes more transparent and accountable.
 
