@@ -7,7 +7,7 @@ tags: [ai,security]     # TAG names should always be lowercase
   These are some notes from the `Foundations Of AI Security` course provided by [AttackIQ](https://www.attackiq.com).
   They might be modified/imporoved to make a better AI security resource.
   
-<h1><span style="color:Green"> Types Of AI </span></h1>
+<h1><span style="color:Green"> <em> Types Of AI </em> </span></h1>
 
 **There are three kinds of artificial intelligence based on capabilities :**
 
@@ -38,7 +38,7 @@ This falls under General AI and therefore is only theoretical. If this functiona
 **4) Self-Aware AI :** 
 This falls under Super AI and is also only theoretical. If the functionality were to be realized it would have the ability to understand its own internal conditions and traits along with human emotions and thoughts
 
-*<h1><span style="color:Green">AI Lifecycle</span></h1>*
+<h1><span style="color:Green"> <em> AI Lifecycle</em></span></h1>
 
 1) **Plan and Design**
 
@@ -58,7 +58,7 @@ This falls under Super AI and is also only theoretical. If the functionality wer
 - The AI RMF by NIST addresses these unique challenges by providing a structured approach to managing risks associated with the development, deployment, and operation of AI systems, emphasizing the importance of transparency, accountability, and ethical considerations in AI applications.
 - AI system impact assessment approaches can help AI actors understand potential impacts or harms within specific contexts. An AI Impact Assessment (AIIA) is a systematic process designed to evaluate the potential effects and risks associated with the deployment of artificial intelligence systems within specific contexts. This assessment is crucial for understanding the broader implications of AI technologies, including ethical, social, legal, and economic impacts. The goal of an AIIA is to identify potential negative outcomes before they occur, enabling organizations to implement mitigation strategies proactively.
 
-*<h1><span style="color:Green">Risk at Different Stages of the AI Lifecycle</span></h1>*
+<h1><span style="color:Green"> <em> Risk at Different Stages of the AI Lifecycle</em></span></h1>
 
 - Plan and Design: During this initial phase, the focus is on identifying potential design flaws or biases in the data that could lead to unfair outcomes or inaccuracies
 - Verify and Validate Stage: At this point, the emphasis shifts to assessing the AI system's performance under various conditions to ensure its reliability and safety. Testing might reveal that the system performs well under controlled conditions but fails to generalize to real-world scenarios, posing a risk of unreliable outputs when deployed
@@ -155,7 +155,7 @@ Trustworthiness in artificial intelligence (AI) is a multifaceted concept that r
 
 **Fairness** ensures that AI systems do not perpetuate or amplify biases and that their decision making processes are equitable. An AI hiring tool designed to mitigate bias and ensure fairness is crucial in preventing discrimination against any demographic group.
 
->*<h1><span style="color:Green">AI RMF Core</span></h1>*
+<h1><span style="color:Green"> <em> AI RMF Core</em></span></h1>
 
 The Core framework consists of four main functions: govern, map, measure, and manage. These functions are further divided into categories and sub-categories, which detail specific actions and outcomes to be achieved.
 
