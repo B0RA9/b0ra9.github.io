@@ -5,7 +5,6 @@ categories: [Notes, AI]
 tags: [ai,security]     # TAG names should always be lowercase
 ---
   These are some notes from the `Foundations Of AI Security` course provided by [AttackIQ](https://www.attackiq.com).
-  They might be modified/imporoved to make a better AI security resource.
   
 <h1><span style="color:Green"> <em> Types Of AI </em> </span></h1>
 
