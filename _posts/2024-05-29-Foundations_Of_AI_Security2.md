@@ -5,7 +5,7 @@ categories: [Notes, AI]
 tags: [ai,security]     # TAG names should always be lowercase
 ---
 
-<h1><span style="color:Green"> <em>MITRE ATLAS</em></h1>
+<h1><span style="color:Green"> <em>MITRE ATLAS</em></span></h1>
 
 ![Atlas_vs_Attack.jpg](/images/Atlas_Matrix.jpg)
 
