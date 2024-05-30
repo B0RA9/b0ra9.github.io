@@ -2,7 +2,7 @@
 title: Foundations Of AI Security 3
 layout: post
 categories: [Notes, AI]
-tags: [ai,security]     # TAG names should always be lowercase
+tags: [ai,security,owasp,ml]     # TAG names should always be lowercase
 ---
 
 <h1><span style="color:Green"> <em>OWASP Machine Learning Top 10</em> </span></h1>
