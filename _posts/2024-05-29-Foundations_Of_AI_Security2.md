@@ -5,7 +5,7 @@ categories: [Notes, AI]
 tags: [ai,security]     # TAG names should always be lowercase
 ---
 
-*<h1><span style="color:Green">MITRE ATLAS</span></h1>*
+<h1><span style="color:Green"> <em>MITRE ATLAS</em></h1>
 
 ![Atlas_vs_Attack.jpg](/images/Atlas_Matrix.jpg)
 
@@ -171,7 +171,7 @@ Attackers aim to stay hidden from machine learning-based security systems like m
 - LLM Prompt Injection
 - LLM Jailbreak
 
-### **9)Credential Access **
+### **9) Credential Access:**
 
 - **Unsecured Credentials**
 
