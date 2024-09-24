@@ -7,7 +7,7 @@ tags: [pcap,Wireshark,easy]     # TAG names should always be lowercase
 
 <h1><span style="color:Green"> <em>Web Investigation </em> </span></h1>
 
-***Link:***  <a>https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/</a>
+***Link:*** [https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/](https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/)
 
 ***Scenario:***
 
