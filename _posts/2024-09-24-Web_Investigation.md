@@ -9,7 +9,7 @@ tags: [pcap,Wireshark,easy]     # TAG names should always be lowercase
 
 ***Link:*** [https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/](https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/)
 
-***Tools:***   <h3><span style="color:Blue"> Wireshark </span></h3>
+***Tools:***   <h3> <span style="color:Blue"> <em> Wireshark </em> </span> </h3>
 
 ***Scenario:***
 
