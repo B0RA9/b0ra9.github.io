@@ -9,6 +9,8 @@ tags: [pcap,Wireshark,easy]     # TAG names should always be lowercase
 
 ***Link:*** [https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/](https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/)
 
+***Tools:***  Wireshark
+
 ***Scenario:***
 
 Ansive online bookstore renowned for its vast selection of literature. BookWorld prides itself on providing a seamless and secure shopping experience for book enthusiasts around the globe. Recently, you've been tasked with reinforcing the company's cybersecurity posture, monitoring network traffic, and ensuring that the digital environment remains safe from threats.
@@ -17,15 +19,15 @@ Late one evening, an automated alert is triggered by an unusual spike in databas
 
 As the lead analyst on this case, you are required to analyze the network traffic to uncover the nature of the suspicious activity. Your objectives include identifying the attack vector, assessing the scope of any potential data breach, and determining if the attacker gained further access to BookWorld's internal systems.
 
-answer the questions, los geht’s :
+Los geht’s :
 
 <h3><span style="color:Red">Q1: By knowing the attacker's IP, we can analyze all logs and actions related to that IP and determine the extent of the attack, the duration of the attack, and the techniques used. Can you provide the attacker's IP?</span></h3>
 
-Opening the file with wireshark, one of the first things I start with, is the **`Statistics**` Tab :
+Opening the file with wireshark, one of the first things we could start with, is the `Statistics` Tab :
 
 Taking a look at the `Protocol Hierarchy` and the `Conversations` we can get a first insight of what’s going on.
 
-From there we can see that most of the traffic was `HTTP` with **"Address A": "111.224.XXX.XXX" → "Address B": "73.124.22.98"** being the most interesting conversation. Filtering by this conversation or HTTP , we can see that **111.224.XXX.XXX** is conducting some sort of fuzzing on **73.124.22.98. with gobuster.**
+From there we can see that most of the traffic was `HTTP` with **"Address A": "111.224.XXX.XXX" → "Address B": "73.124.22.98"** being the most interesting conversation. Filtering by this conversation or HTTP , we can see that **111.224.XXX.XXX** is conducting some sort of fuzzing on **73.124.22.98** with `gobuster`.
 
 <h3><span style="color:Green">Answer 1: 111.224.XXX.XXX</span></h3>
 
@@ -37,7 +39,7 @@ Using any online tool like [https://ipinfo.io](https://ipinfo.io/) we get the ci
 
 <h3><span style="color:Red">Q3: Identifying the exploited script allows security teams to understand exactly which vulnerability was used in the attack. This knowledge is critical for finding the appropriate patch or workaround to close the security gap and prevent future exploitation. Can you provide the vulnerable script name?</span></h3>
 
-After a quick look at the packets we can use different filters to get the script name like this one, given that gobuster is a recon tool, and the attacker will eventually visit any found pages with a  browser (or another tool).
+Given that gobuster is a recon tool, and the attacker will eventually visit any found pages with a  browser (or another tool) and ffter a quick look at the packets we can use different filters to get the script name like this one : 
 
 **`(!(http.user_agent == "gobuster/3.6")) && !(http.response.code == 404) && http`**
 
