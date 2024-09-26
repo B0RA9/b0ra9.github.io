@@ -5,11 +5,11 @@ categories: [CyberDefenders, Network]
 tags: [pcap,Wireshark,easy]     # TAG names should always be lowercase
 ---
 
-<h1><span style="color:Green"> <em>Web Investigation </em> </span></h1>
+<h1><span style="color:Green;font-weight: bold"> <em>Web Investigation </em> </span></h1>
 
 ***Link:*** [https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/](https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/)
 
-***Tools:***   <h3> <span style="color:Blue"> <em> Wireshark </em> </span> </h3>
+***Tools:***  `Wireshark`
 
 ***Scenario:***
 
